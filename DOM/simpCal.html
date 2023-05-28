@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Calculator</title>
+    <link rel="icon" type="image/x-icon" href="cal1.png">
+    <style>
+        .container
+        {
+            margin-top: 83px;
+            margin-left:246px ;
+            border: 3px solid #d83c3c;
+            background-color: bisque;
+            padding: 30px;
+            margin-right: 670px;
+        }
+        .btnOper
+        {
+            margin-right: 20px;
+        }
+        #txt3
+        {
+            margin-top: 30px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <label for="txt1">Add First Number</label>
+    <input type="text" name="first" id="txt1" style="margin-left: 51px;margin-bottom: 21px;" autofocus><br>
+    <label for="txt2">Add Second Number</label>
+    <input type="text" name="second" id="txt2" style="margin-left: 34px;"><br>
+    <div>
+        <button id="btn1" class="btnOper" style="margin-top: 23px;">Add</button>
+    <button id="btn2" class="btnOper" style="margin-top: 23px;">Subtract</button>
+    <button id="btn3" class="btnOper" style="margin-top: 23px;">Multi</button>
+    <button id="btn4" class="btnOper" style="margin-top: 23px;">Divide</button>
+    </div>
+    
+    <input type="text" id="txt3" readonly>
+    </div>
+    <script>
+        document.getElementById("btn1").addEventListener("click",add);
+        document.getElementById("btn2").addEventListener("click",sub);
+        document.getElementById("btn3").addEventListener("click",multi);
+        document.getElementById("btn4").addEventListener("click",divide);
+        function add()
+        {
+            var a=Number(document.getElementById("txt1").value);
+        var b=Number(document.getElementById("txt2").value);
+        var c=a+b;
+        document.getElementById("txt3").value=c;
+        }
+
+        function sub()
+        {
+            var a=Number(document.getElementById("txt1").value);
+        var b=Number(document.getElementById("txt2").value);
+        var c=a-b;
+        document.getElementById("txt3").value=c;
+        }
+        
+        function multi()
+        {
+            var a=Number(document.getElementById("txt1").value);
+        var b=Number(document.getElementById("txt2").value);
+        var c=a*b;
+        document.getElementById("txt3").value=c;
+        }
+
+        function divide()
+        {
+            var a=Number(document.getElementById("txt1").value);
+        var b=Number(document.getElementById("txt2").value);
+        var c=a/b;
+        document.getElementById("txt3").value=c;
+        }
+
+        
+    </script>
+</body>
+</html>
