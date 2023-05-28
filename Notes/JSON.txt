@@ -1,0 +1,17 @@
+JSON:
+-It is JavaScript Object Notation
+-In this object the value should be only value in the form of number string,boolean,number 
+but not the function[no methods]
+-It is used only for transition purpose between client and server
+-the string property should be in string format only[Every property is in string format only]
+-the integer,boolean property should be in non string format[for string property double/single 
+quotes is required]  [for number and boolean property double/single quotes is not required]
+
+Stringfy method:
+-this method is used for to convert the Object literal to JSON format
+
+parse:
+-this method is used for to convert the JSON to Object literal format.
+
+Object.key:
+-this method is used for only to get the all the properties from the object.

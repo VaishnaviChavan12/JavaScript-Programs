@@ -1,0 +1,17 @@
+Function call:
+using this method we can pass the ref variable to this variable of that function and also call
+that specific function.pass the parameter to the function as usual.
+
+Function apply:
+using this method we can pass the ref variable to this variable of that function and also call
+that specific function.pass the parameter to the function in array format.
+
+Function bind:
+only add the reference to that specific object not call the function.call the function manually.
+
+Arrow function:
+-it's differ than the regular function.
+-in the regular function this keywaord is refers to the currrent object but in the arrow 
+fuction it refers to the empty object i.e.{}
+-when we call the regular function using the setTimeout function that time he refers to the global 
+obj but in the arrow function he not refers to any object he refers to empty i.e.{}

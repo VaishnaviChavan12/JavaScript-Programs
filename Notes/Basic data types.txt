@@ -1,0 +1,47 @@
+Basic data types:
+
+1)const:     we can't change the value of the constant variable after assigning the first time
+const a=10;                                                    const a=95; 
+a=97;                                                          d=50;                      //You can assign the value to the other variable but not the constant variable
+//This program gives the error                                // No error here
+
+2)back tic | Interpolation operator |
+var b=`used to add the variable in the string and use his value instead of his string like $(age)`;
+var age="10"
+console.log(b);
+OUTPUT is:
+used to add the variable in the string and use his value instead of his string like 10.
+
+3)hoisting
+console.log("First statement",x);
+console.log("Second statement");
+console.log("Third statement");
+console.log("Fourth statement");
+var x=10;
+console.log("Fifth statement");
+console.log("Sixth statement");
+console.log("Seventh statement");
+
+output:
+First statement undefined
+Second statement
+Third statement
+Fourth statement
+Fifth statement
+Sixth statement
+Seventh statement
+
+
+Arguments keyword
+ Arguments keyword is used for to get from the parameters which are passed in the method.
+
+Recursion fumction:
+A function is called itself.
+
+
+
+
+
+
+
+

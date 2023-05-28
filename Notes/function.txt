@@ -1,0 +1,20 @@
+pure Function:
+-No use the outside of function Variable i.e. Global Variable
+-No side effect menas can't change the value of global variables
+-can't change the value of parameters value
+-use only the parameters and inside function decalred parameters
+-It returns the identical value for same value for every value
+
+CallBack Function:
+when we pass the function as a parameter to other function and call it at the end of function
+is called CallBack function.
+
+Higher order function:
+It is function that recevies the function as a parameter or return the function from a function.
+
+Immediately Invoked Job:
+it's call a function immediately after the declaration of the function.
+fun=(function(){}) ();
+
+Currying:
+Cutting one function into smaller functions.It is the collection of immediate invoked function.

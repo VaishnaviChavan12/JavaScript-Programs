@@ -1,0 +1,4 @@
+Closure:
+It keeps the data private which data you keep as a private.
+and makes the public data as a public which you keep public.
+

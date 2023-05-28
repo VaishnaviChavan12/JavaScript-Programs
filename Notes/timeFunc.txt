@@ -1,0 +1,24 @@
+setTimeout:
+call the function when specified time is overed
+setTimeout(sayBye,5*1000);    In this sayBye funcyion is called after specified time
+
+setInterval:
+the function is called every time of the interval when the time is overed.
+setInterval(val,2000);    val function calls after every 2 Seconds.
+
+Currying:
+console.log("HI Hello");
+var b=function()
+{
+    console.log("First Function");
+    console.log("------------------");
+    return function(){
+        console.log("Second Function");
+        return function(){
+            console.log("Third Function");
+            return function(){
+                console.log("Fourth Function");
+            }();
+        };
+    };
+}()()();

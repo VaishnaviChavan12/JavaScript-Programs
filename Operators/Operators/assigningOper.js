@@ -1,0 +1,11 @@
+var a=90,b=10;
+a+=b;
+console.log("Value of a is:",a);
+a-=b;
+console.log("Value of a is:",a);
+a*=b;
+console.log("Value of a is:",a);
+a/=b;
+console.log("Value of a is:",a);
+a%=b;
+console.log("Value of a is:",a);
